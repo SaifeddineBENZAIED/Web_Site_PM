@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Billetterie- Festival de Musique</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Bootstrap theme from Bootswatch -->
+  <link rel="stylesheet" href="css/dist/pulse/_bootswatch.scss">
+  <link rel="stylesheet" href="css/dist/pulse/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/cssfile.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" id="existe1">
+    <div class="container">
+      <a class="navbar-brand" id="fest">Concert de Maître Gims</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Accueil
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="artistes.html">Artistes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="programme.html">Programme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="billetterie.html">Billetterie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#existe2">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+ 
+  
+
+
+<!-- Billetterie -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <h1>Billetterie</h1>
+      <form>
+        <br><br>
+        <div class="form-group">
+          <label for="nom">Nom</label>
+          <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="prenom">Prénom</label>
+          <input type="text" class="form-control" id="prenom" placeholder="Votre prénom">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="telephone">Numéro de téléphone</label>
+          <input type="tel" class="form-control" id="telephone" placeholder="Votre numéro de téléphone">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="adresse">Adresse de livraison</label>
+          <input type="text" class="form-control" id="adresse" placeholder="Votre adresse de livraison">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="evenement">Catégorie de billets</label>
+          <select class="form-control" id="evenement">
+            <option value="gradin-50">Gradin à 50 DT</option>
+            <option value="chaise-70">Chaise à 70 DT</option>
+            <option value="vip-1200">VIP à 120 DT</option>
+          </select>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="quantite">Nombre de billets</label>
+          <input type="number" class="form-control" id="quantite" placeholder="Nombre de billets">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Acheter</button>
+        <br><br><br>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <footer class="page-footer font-small bg-dark text-white pt-4" id="existe2">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-3 mt-md-0 mb-3">
+          <h5>À propos de nous</h5>
+          <p>L'équipe organisatrice du concert est composée de professionnels passionnés de musique et d'événementiel. Nous mettons notre expertise et notre créativité au service de la réalisation d'événements musicaux de qualité pour offrir des moments inoubliables à notre public.</p>
+
+	  </div>
+      <div class="col-md-3 mt-md-0 mb-3">
+        <h5 class="text-uppercase">Contactez-nous</h5>
+        <p>Adresse: Rue BLA BLA</p>
+          <p>Téléphone: +216 00 000 000</p>
+          <p>Email: contact@evenementmusical.com</p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Liens utiles</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="billetterie.html">Billetterie</a>
+            </li>
+            <li>
+              <a href="artistes.html">Artistes</a>
+            </li>
+            <li>
+              <a href="programme.html">Programme</a>
+            </li>
+            <li>
+              <a href="#!">Contactez-nous</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Suivez-nous</h5>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-12 mt-md-0 mt-3">
+          <p>© 2023 Evenement Musical. Tous droits réservés.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/esm/popper.min.js" integrity="sha384-VriwC1xj7onLPRWE8WpIIFBCvBlugOoKK61ATJZ8WxdQgOwLhcdoxG1PNH8YpPRl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-UvKWW0nF2fD8udZqMviSpn1csmxg14SlmX4Fqgx7kA1yDYpVzBfSHTGw5R5bmWyZ" crossorigin="anonymous"></script>
+    <script src="js/jsfile.js"></script>
+  </body>
+  </html>
